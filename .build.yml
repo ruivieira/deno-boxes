@@ -1,0 +1,13 @@
+image: ubuntu/latest
+packages:
+  - curl
+  - unzip
+sources:
+  - https://git.sr.ht/~ruivieira/deno-boxes
+tasks:
+  - setup: |
+      curl -fsSL https://deno.land/x/install/install.sh | sh
+  - test: |
+      cd deno-experiments
+      /home/build/.deno/bin/deno fmt --check */**.ts
+      /home/build/.deno/bin/deno test -A --unstable tests/*.ts

@@ -1,0 +1,7 @@
+# files and directories are specified one by line, as a glob expr
+.git*/**
+.idea/**
+.vscode/**
+benchmarks/**
+eggs-debug.log
+*.iml

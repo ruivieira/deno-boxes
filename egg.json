@@ -1,0 +1,24 @@
+{
+  "name": "boxes",
+  "entry": "./mod.ts",
+  "description": "A small DSL for building Dockerfiles or Docker compose files",
+  "homepage": "https://git.sr.ht/~ruivieira/deno-boxes",
+  "unstable": true,
+  "unlisted": false,
+  "version": "0.0.1",
+  "releaseType": "minor",
+  "files": [
+    "./mod.ts",
+    "./core.ts",
+    "./compose.ts",
+    "./README.md",
+    "./LICENSE"
+  ],
+  "ignore": [
+    ".git"
+  ],
+  "checkFormat": "deno fmt",
+  "checkTests": "deno test",
+  "checkInstallation": true,
+  "check": true
+}
