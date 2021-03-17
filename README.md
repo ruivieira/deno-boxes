@@ -2,6 +2,13 @@
 
 A small DSL for building Dockerfiles or Docker compose files.
 
+## Usage
+
+Imports are available from:
+
+- deno.land: https://deno.land/x/boxes
+- nest.land: https://nest.land/package/boxes
+
 ## Examples
 
 ### Dockerfile
