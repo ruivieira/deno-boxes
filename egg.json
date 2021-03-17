@@ -5,8 +5,8 @@
   "homepage": "https://git.sr.ht/~ruivieira/deno-boxes",
   "unstable": true,
   "unlisted": false,
-  "version": "0.0.1",
-  "releaseType": "minor",
+  "version": "0.0.2",
+  "releaseType": "patch",
   "files": [
     "./mod.ts",
     "./core.ts",
